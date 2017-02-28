@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="shieldsPhoto">
+<head>
+	<meta charset="UTF-8">
+	<title>Shields Photography, Monroe, MI Photography</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+ <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js'></script>
+
+    </head>
+    <body>
+    	<nav class="navbar navbar-inverse">
+    		<div class="container-fluid" id="header">
+    			<div class="navbar-header navbar-left">
+    				<a href="index.php"><img class="img-responsive col-xs-4 col-lg-12" src="img/logomd.png" alt=""></a>
+    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    				</button>
+
+    			</div>
+    			<div class="collapse navbar-collapse navbar-right" id="nav">
+    				<ul class="nav navbar-nav">
+    					<li><a href="#/">Home</a></li>
+    					<li class="dropdown">
+    						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galleries<span class="caret"></span></a>
+    						<ul class="dropdown-menu">
+    							<li class="dropText"><a href="#/seniors">Seniors</a></li>
+    							<li class="dropText"><a href="#/weddings">Weddings</a></li>
+    							<li class="dropText"><a href="#/engagement">Engagements</a></li>
+    							<li class="dropText"><a href="#/portraits">Portraits</a></li>
+    							<li class="dropText"><a href="#/family">Family</a></li>
+    						</ul>
+    					</li>
+    					<li><a href="#/investment">Investment</a></li>
+    					<li><a href="#/contact">Contact</a></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</nav>
+
+
+    	<div ng-view></div>
+
+
+
+
+    	<footer>
+    		<div class="container-fluid footer-below" id="foot">
+    			<div class="row">
+
+    				<div class="col-lg-12 text-center">
+    					<br>
+    					<h3 class="footerHeading">Connect With Us!</h3>
+    					<ul class="list-inline social-buttons">
+    						<li><a href="https://twitter.com/ShieldsphotoMI"><i class="fa fa-twitter fa-2x"></i></a>
+    						</li>
+    						<li><a href="https://www.facebook.com/shieldsphotographyMI/"><i class="fa fa-facebook fa-2x"></i></a>
+    						</li>
+
+    					</ul>
+    				</div>
+
+    			</div>
+    			<div class="row" id="copyright">
+    				<div class="text-center col-md-12 copy">
+    					<small>&copy 2017 Shields Photography, All Rights Reserved.</small>
+    				</div>
+    			</div>
+    		</div>
+    	</footer>
+
+
+
+
+    	<script src="https://use.fontawesome.com/b06889fbff.js"></script>
+    	<!-- Latest compiled and minified JavaScript -->
+    	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    	<script src="js/app.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    </body>
+    </html>

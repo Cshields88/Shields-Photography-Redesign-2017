@@ -1,0 +1,298 @@
+/*navigation*/
+
+.dropText {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    padding: 2px 0 0 2px; 
+
+}
+
+ul.dropdown-menu{
+    background-color: #222;
+}
+
+.navbar {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    padding: 5px !important;
+}
+
+#nav {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #9BBED9;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+#nav li {
+    padding-bottom: 20px;
+}
+
+#nav a {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+#nav a:link {
+    color: #9BBED9;
+}
+
+#nav a:visited {
+    color: #9BBED9;
+}
+
+#nav a:hover {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+#nav a:active {
+    color: #9BBED9;
+}
+
+/*Navigation End*/
+
+/*Footer*/
+
+#copyright {
+    padding-bottom: 10px;
+}
+
+.fa-twitter {
+    color: #9BBED9;
+}
+
+.fa-facebook {
+    color: #9BBED9;
+}
+
+.fa-pinterest-p {
+    color: #9BBED9;
+}
+
+.fa-snapchat-ghost {
+    color: #9BBED9;
+}
+
+.footerHeading {
+    color: #9BBED9;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+#foot {
+    background-color: #222 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.footer {
+    background: #222;
+    border-top: #9BBED9 solid;
+    /*    height: 100px;*/
+    padding-top: 10px;
+}
+
+.copy {
+    background: #222;
+    color: #9BBED9;
+    padding-top: 10px;
+}
+
+#footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #9BBED9;
+    /*    padding-top: 40px;*/
+    margin-left: 60px;
+}
+
+.smIcons {
+    width: 35px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.pin {
+    width: 35px;
+    height: 35px;
+}
+
+.container-fluid {
+    /*    margin: 0 !important;*/
+    padding: 0 0 !important;
+}
+
+/*Footer End*/
+
+/*Contact*/
+
+button.btn.btn-xl{
+    background-color: #9BBED9 !important;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #222;
+    padding: 75px 10px 50px 10px;
+    width: 100%;
+}
+
+#contact .section-heading {
+    color: #9BBED9;
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+}
+#contact .form-group {
+    margin-bottom: 15px;
+}
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 10px;
+}
+#contact .form-group input.form-control {
+    height: auto;
+}
+#contact .form-group textarea.form-control {
+    height: 236px;
+}
+#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+#contact ::-webkit-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9BBED9;
+}
+#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#contact :-ms-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#contact .text-danger {
+    color: #e74c3c;
+}
+
+
+/*Contact End*/
+
+/*Home*/
+
+.sp-main{
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+#home{
+    background-color: #222;
+    width: 100%;
+    padding: 50px 0 100px 0;
+}
+
+/*Home End*/
+
+/*Investment*/
+
+.priceBody {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.price {
+    color: #9BBED9;
+    font-size: 55px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.priceHeading {
+    color: white;
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.smPrice {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#invest, #seniors, #portraits, #family, #engagements{
+    background-color: #222;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+/*Investment End*/
+
+/*Galleries*/
+
+.img{
+    /*padding: 15px;*/
+    border: solid 1px #9BBED9;
+    margin-bottom: 12px;
+    padding: 5px !important;
+    width: 288px !important;
+    height: 435px !important;
+}
+
+.img-w{
+    /*padding: 15px;*/
+    border: solid 1px #9BBED9;
+    margin-bottom: 12px;
+    padding: 5px !important;
+    width: 435px !important;
+    height: 288px !important;
+}
+
+/*#seniors{
+    background-color: #222;
+    width: 100%;
+    padding-top: 75px;
+}
+*/
+/*#engagements{
+ background-color: #222;
+ width: 100%;
+ padding-top: 75px;
+ }*/
+
+ /*Galleried End*/
+
+
+ .genral,.seniors,.weddings,.ala-carte{
+    border-bottom: solid 2px #9BBED9;
+}
